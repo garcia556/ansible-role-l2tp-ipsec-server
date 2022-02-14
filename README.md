@@ -25,13 +25,6 @@ Role Variables
     l2tp_ipsec_server_firewall_zone: public
     l2tp_ipsec_server_udp_ports: [ 1701,500,4500 ]
 
-Dependencies
-------------
-
-- shomatan.epel (RHEL)
-- shomatan.firewalld (RHEL)
-- shomatan.ufw (Debian)
-
 Example Playbook
 ----------------
 
